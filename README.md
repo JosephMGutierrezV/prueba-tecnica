@@ -21,19 +21,19 @@ Descargue las fuentes y ejecute en la terminal los siguientes comandos:
 
 ### Vista web
 
-![](src\assets\Inicio.png)
+![](https://github.com/JosephMGutierrezV/prueba-tecnica/blob/main/src/assets/Inicio.png?raw=true)
 
-![](src\assets\cosulta.png)
+![](https://github.com/JosephMGutierrezV/prueba-tecnica/blob/main/src/assets/cosulta.png?raw=true)
 
 ### Vista Movil
 
-![](src\assets\Inicio_movil.png)
+![](https://github.com/JosephMGutierrezV/prueba-tecnica/blob/main/src/assets/Inicio_movil.png?raw=true)
 
-![](src\assets\consulta_movil.png)
+![](https://github.com/JosephMGutierrezV/prueba-tecnica/blob/main/src/assets/consulta_movil.png?raw=true)
 
 ### Modelo reducer
 
-![](src\assets\reducer.png)
+![](https://github.com/JosephMGutierrezV/prueba-tecnica/blob/main/src/assets/reducer.png?raw=true)
 
 `<Linkedin>` : <https://www.linkedin.com/in/joseph-mauricio-gutierrez-valero-3b930512b/>
 
