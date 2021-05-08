@@ -1,0 +1,46 @@
+<div class="col-12 col-md-6 mt-4 text-center">
+  <mat-form-field appearance="fill">
+    <mat-label>Oferta</mat-label>
+    <mat-select
+      (selectionChange)="select(selected)"
+      [formControl]="offersControl"
+      required
+      [(value)]="selected"
+    >
+      <mat-option>--</mat-option>
+      <mat-option *ngFor="let offer of offers" [value]="offer">
+        {{ offer.id }}
+      </mat-option>
+    </mat-select>
+    <mat-error *ngIf="offersControl.hasError('required')"
+      >Por favor seleccione una codigo de oferta</mat-error
+    >
+    <mat-hint>Puede seleccionar el codigo de la oferta a buscar.</mat-hint>
+  </mat-form-field>
+</div>
+<div class="col-12 col-md-6 mt-4 text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <mat-form-field appearance="fill">
+          <mat-label>ID Oferta:</mat-label>
+          <input matInput disabled type="text" [(ngModel)]="id" />
+        </mat-form-field>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <mat-form-field appearance="fill">
+          <mat-label>Nombre:</mat-label>
+          <textarea
+            class="text-disanbled"
+            matInput
+            disabled
+            type="text"
+            [(ngModel)]="nombre"
+          ></textarea>
+        </mat-form-field>
+      </div>
+    </div>
+  </div>
+</div>

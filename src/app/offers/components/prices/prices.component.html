@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-wrap mb-5">
+      <h3 class="bg-title">Nombre Precio</h3>
+      <mat-selection-list class="bg-li" #shoes [multiple]="false">
+        <mat-list-option
+          class="name-product"
+          *ngFor="let precioProducto of preciosProductos"
+          [value]="precioProducto"
+        >
+          {{ precioProducto.versions[0].name }}
+        </mat-list-option>
+      </mat-selection-list>
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+      <h3 class="bg-title">Monto</h3>
+      <mat-selection-list class="bg-li" #shoes [multiple]="false">
+        <mat-list-option
+          class="name-product"
+          *ngFor="let precioProducto of preciosProductos"
+          [value]="precioProducto"
+        >
+          {{
+            precioProducto.versions[0].price.amount
+              | currency: precioProducto.versions[0].price.units.code:"symbol"
+          }}
+        </mat-list-option>
+      </mat-selection-list>
+    </div>
+  </div>
+</div>

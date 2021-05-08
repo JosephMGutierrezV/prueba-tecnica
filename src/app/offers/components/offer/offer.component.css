@@ -1,0 +1,15 @@
+.bg-title {
+  background-color: #ff3b3f;
+}
+
+.bg-li {
+  background-color: #caebf2;
+}
+
+.text-disanbled {
+  font-size: 10.5px;
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word !important;
+  white-space: pre-wrap !important;
+  height:initial!important;
+}

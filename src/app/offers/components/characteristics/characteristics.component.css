@@ -1,0 +1,12 @@
+.bg-title {
+  background-color: #ff3b3f;
+}
+
+.bg-li {
+  background-color: #caebf2;
+}
+
+.name-product {
+  white-space: normal !important;
+  font-size: 10.5px !important;
+}

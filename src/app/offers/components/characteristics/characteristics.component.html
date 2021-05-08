@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h3 class="bg-title">Caracteristicas</h3>
+      <mat-selection-list class="bg-li" #shoes [multiple]="false">
+        <mat-list-option
+          class="name-product"
+          *ngFor="let caracteristica of caracteristicas"
+          [value]="caracteristica"
+        >
+          {{ caracteristica.versions[0].name }}
+        </mat-list-option>
+      </mat-selection-list>
+    </div>
+  </div>
+</div>
